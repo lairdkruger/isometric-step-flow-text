@@ -1,0 +1,85 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background: black;
+    margin: auto;
+    overscroll-behavior: none;
+}
+
+.all {
+    position: relative;
+    height: 150vh;
+}
+
+.title {
+    position: relative;
+}
+
+.steps {
+    display: inline-block;
+    position: relative;
+    margin: 30px 50px;
+
+    top: 50vh;
+}
+
+.step {
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 90px;
+}
+
+.step-horizontal {
+    transform: skew(63deg, -26.6deg) scale(1,.5);
+}
+
+.step-vertical {
+    transform: skew(0deg,-26.6deg);
+}
+
+.first-step-window {
+}
+
+.second-step-window {
+    left: 43.6px;
+    top: -22.266px;
+}
+
+.third-step-window {
+    left: 87.2px;
+    top: -44.522px;
+}
+
+.fourth-step-window {
+    left: 130.8px;
+    top: -66.798px;
+}
+
+.fifth-step-window {
+    left: 174.4px;
+    top: -89.064px;
+}
+
+.step-contents {
+    position: relative;
+}
+
+.steps-text {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: 'UnifrakturCook', cursive;
+    color: white;
+    -webkit-text-stroke: 2px white;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 90px;
+}
+
+.text-outline {
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 2px white;
+}
